@@ -10,36 +10,55 @@
     <title>Tic-tac-toe</title>
   </head>
   <body>
-    <div class="container">
-      <form id="playerForm">
+    <div class="container" id="freezeFrame">
+      <!-- <form id="playerForm">
         <label for="playerName">Please enter name for player <span id="playerNumber"></span>:</label>
         <input type="text" id="playerName">
         <button type="submit" class="button">Submit</button>
-      </form>
+      </form> -->
       <div class="row row-1">
         <div class="col-md-4 col-1" id="one">
+          <input type="number" class="hider" value=1 id="1">
         </div>
         <div class="col-md-4 col-2" id="two">
+          <input type="number" class="hider" value=2 id="2">
         </div>
         <div class="col-md-4 col-3" id="three">
+          <input type="number" class="hider" value=3 id="3">
         </div>
       </div>
       <div class="row row-2">
         <div class="col-md-4 col-1" id="four">
+          <input type="number" class="hider" value=4 id="4">
         </div>
         <div class="col-md-4 col-2" id="five">
+          <input type="number" class="hider" value=5 id="5">
         </div>
         <div class="col-md-4 col-3" id="six">
+          <input type="number" class="hider" value=6 id="6">
         </div>
       </div>
       <div class="row row-3">
         <div class="col-md-4 col-1" id="seven">
+          <input type="number" class="hider" value=7 id="7">
         </div>
         <div class="col-md-4 col-2" id="eight">
+          <input type="number" class="hider" value=8 id="8">
         </div>
         <div class="col-md-4 col-3" id="nine">
+          <input type="number" class="hider" value=9 id="9">
         </div>
       </div>
+      <div class="winner1 hider">
+        <h1>Congratulations Player 1, you win!</h1>
+      </div>
+      <div class="winner2 hider">
+        <h1>Congratulations Player 2, you win!</h1>
+      </div>
+      <div class="tie hider">
+        <h1>Congratulations neither of you win!</h1>
+      </div>
+      <button class="button hider refresh"><a href="index.html">Start Over</a></button>
     </div>
   </body>
 </html>
