@@ -1,0 +1,61 @@
+#one{
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  min-height: 200px;
+  max-width: 200px;
+
+}
+#two{
+  border-bottom: 4px solid black;
+  min-height: 200px;
+  max-width: 200px;
+}
+#three{
+  border-bottom: 4px solid black;
+  border-left: 4px solid black;
+  min-height: 200px;
+  max-width: 200px;
+}
+#four{
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  min-height: 200px;
+  max-width: 200px;
+}
+#five{
+  border-bottom: 4px solid black;
+  min-height: 200px;
+  max-width: 200px;
+}
+#six{
+  border-bottom: 4px solid black;
+  border-left: 4px solid black;
+  min-height: 200px;
+  max-width: 200px;
+}
+#seven{
+  border-right: 4px solid black;
+  min-height: 200px;
+  max-width: 200px;
+}
+#eight{
+  min-height: 200px;
+  max-width: 200px;
+}
+#nine{
+  border-left: 4px solid black;
+  min-height: 200px;
+  max-width: 200px;
+}
+.col-md-4{
+  font-size: 100px;
+  text-align: center;
+  font-family: "Permanent Marker", sans-serif;
+  color: Tomato;
+}
+.col-md-4:hover{
+  cursor: pointer;
+}
+.unclickable {
+  pointer-events: none;
+}
